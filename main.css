@@ -1,0 +1,147 @@
+body{
+	background-image: url(carbon_fibre.png);
+}
+
+.screen{
+	margin-left: 231px;
+	margin-top: 100px;
+	height: 100px;
+	width: 600px;
+	font-size: 50px;
+}
+
+input[type=text]{
+	width: 100%;
+	height:100%;
+	font-family: 'Orbitron', sans-serif;
+	text-align: right;
+}
+
+ul { list-style:none; margin:0; padding:0 }
+
+.numbers li {
+  display:block;
+  border-bottom: 100px solid #111111;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  color: white;
+  padding: 30px;
+  font-size: 28px;
+  position: absolute;
+  margin-top: 300px;
+  margin-left: -200px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.numbers li:first-child {
+	transform: rotate(36deg) translateY(200px);
+}
+.numbers li:nth-child(2) {
+	transform: rotate(72deg) translateY(200px);
+}
+.numbers li:nth-child(3) {
+	transform: rotate(108deg) translateY(200px);
+}
+.numbers li:nth-child(4) {
+	transform: rotate(144deg) translateY(200px);
+}
+.numbers li:nth-child(5) {
+	transform: rotate(180deg) translateY(200px);
+}
+.numbers li:nth-child(6) {
+	transform: rotate(216deg) translateY(200px);
+}
+.numbers li:nth-child(7) {
+	transform: rotate(252deg) translateY(200px);
+}
+.numbers li:nth-child(8) {
+	transform: rotate(288deg) translateY(200px);
+}
+.numbers li:nth-child(9) {
+	transform: rotate(324deg) translateY(200px);
+}
+.numbers li:nth-child(10) {
+	transform: rotate(360deg) translateY(200px);
+}
+
+.one{
+	position: absolute;
+	margin-left: -10px;
+	margin-top: 55px;
+	transform: rotate(-216deg);
+}
+.two{
+	position: absolute;
+	margin-top: 56px;
+	margin-left: -9px;
+	transform: rotate(-252deg);	
+}
+.three{
+	position: absolute;
+	margin-top: 57px;
+	margin-left: -4spx;
+	transform: rotate(-288deg);	
+}
+.four{
+	position: absolute;
+	margin-top: 59px;
+	margin-left: -4px;
+	transform: rotate(-324deg);	
+}
+.five{
+	position: absolute;
+	margin-top: 57px;
+	margin-left: -7px;
+	transform: rotate(-360deg);	
+}
+.six{
+	position: absolute;
+	margin-top: 61px;
+	margin-left: -8px;
+	transform: rotate(-36deg);
+}
+.seven{
+	position: absolute;
+	margin-top: 57px;
+	margin-left: -4px;
+	transform: rotate(-72deg);	
+}
+.eight{
+	position: absolute;
+	margin-top: 56px;
+	margin-left: -7px;
+	transform: rotate(-108deg);	
+}
+.nine{
+	position: absolute;
+	margin-top: 57px;
+	margin-left: -4px;
+	transform: rotate(-144deg);	
+}
+.zero{
+	position: absolute;
+	margin-top: 58px;
+	margin-left: -4px;
+	transform: rotate(-180deg);	
+}
+
+.answer{
+	margin-top: 100px;
+	margin-left: -310px;
+}
+.clear{
+	margin-left: -320px;
+	margin-top: 100px;	
+}
+
+button{
+	border-radius: 5px;
+	height: 600px;
+	width: 120px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    color: white;
+	background-color: black;
+	border-style: none;
+	box-shadow: 5px 5px #111111;
+}
