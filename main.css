@@ -33,6 +33,12 @@ ul { list-style:none; margin:0; padding:0 }
   font-family: 'Orbitron', sans-serif;
 }
 
+.numbers li:hover{
+  border-bottom: 102px solid #111111;
+  border-left: 52px solid transparent;
+  border-right: 52px solid transparent;
+}
+
 .numbers li:first-child {
 	transform: rotate(36deg) translateY(200px);
 }
@@ -144,4 +150,9 @@ button{
 	background-color: black;
 	border-style: none;
 	box-shadow: 5px 5px #111111;
+}
+
+button:hover{
+ 	height: 602px;
+ 	width: 122px; 
 }
